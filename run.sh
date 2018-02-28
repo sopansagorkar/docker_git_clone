@@ -1,7 +1,7 @@
 echo "*****************cloning workspace**********************/n"
 
-git clone https://github.com/sopansagorkar/automation_framework.git
+git clone https://github.com/sopansagorkar/Selenium_3.0.1_Sample.git
 
-cd automation_framework
+cd Selenium_3.0.1_Sample
 
-mvn test
+mvn test -Ddriver=phantomjs
