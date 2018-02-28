@@ -3,7 +3,7 @@ FROM ubuntu:14.04
 MAINTAINER Sopan <sagorkars@gmail.com>
 RUN apt-get update 
 
-RUN apt-get install -y openjdk-7-jdk
+RUN apt-get install -y --force-yes openjdk-7-jdk
 
 ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
 
